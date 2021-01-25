@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 /* VendingMachine Component
  * Props: none
  * State: none
@@ -12,11 +12,7 @@ function VendingMachine(){
         <p>What would you like?</p>
       </div>
       <div>
-      <ul>
-        <li><Link to="/chips">Chips</Link></li>
-        <li><Link to="/tea">Tea</Link></li>
-        <li><Link to="/cake">Cake</Link></li>
-      </ul>
+      <img alt="Vendima Machine" src="https://www.naturals2go.com/wp-content/uploads/2019/01/VendingMachine.jpg"></img>
       </div>
     </div>);
 }

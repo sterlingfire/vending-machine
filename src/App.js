@@ -2,6 +2,7 @@ import './App.css';
 import Chips from './Chips';
 import Tea from './Tea';
 import Cake from './Cake';
+import NavBar from "./NavBar";
 import VendingMachine from './VendingMachine';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <BrowserRouter>
+        <NavBar/>
           <Switch>
             <Route exact path="/">
               <VendingMachine />
