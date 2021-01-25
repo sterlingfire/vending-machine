@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 /* VendingMachine Component
  * Props: none
  * State: none
- * App -> Router -> {Vending Machine, Chips, Tea, Cake}
+ * App -> Router / -> {Vending Machine, Chips, Tea, Cake}
  */
 function VendingMachine(){
   return (
